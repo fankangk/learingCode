@@ -91,6 +91,10 @@ public class NQueens {
          return true;
     }
 
+    /**
+     * @desc:    判断是否符合要求 即任意两个皇后都不能处于同一行、同一列或同一斜线上（指斜率为1或者-1）
+     * @date:   2018/10/19 8:35
+     */
    public  List<String>  convertNodeToString(List<Node> nodeList,int n){
 
        List<String> list = new ArrayList<>();
